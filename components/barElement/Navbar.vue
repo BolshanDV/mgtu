@@ -1,6 +1,14 @@
 <template>
   <div class="navbar_section">
     <nuxt-link
+        to="/about"
+        class="url"
+    >
+      <div class="navbar_btn">
+        О нас
+      </div>
+    </nuxt-link>
+    <nuxt-link
         to="/"
         class="btn"
     >
