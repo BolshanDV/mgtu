@@ -1,27 +1,27 @@
 <template>
     <div class="body">
-<!--      <div class="sidebar">-->
-<!--        <Sidebar/>-->
-<!--      </div>-->
       <div class="main">
         <div class="navbar row_position">
-          <navbar/>
+          <Navbar/>
         </div>
-        <div class="main_section scroll">
-          <Nuxt/>
-        </div>
+          <div class="scroll">
+            <Nuxt/>
+            <div class="footer">
+              <Footer/>
+            </div>
+          </div>
       </div>
     </div>
 </template>
 
 <script>
-import Sidebar from "../components/barElement/sidebar";
-import navbar from "../components/barElement/navbar";
+import Navbar from "@/components/barElement/Navbar";
+import Footer from "@/components/barElement/Footer";
 export default {
-  name: "default",
+  name: "Default",
   components: {
-    Sidebar,
-    navbar,
+    Navbar,
+    Footer
   },
 }
 </script>
@@ -31,12 +31,9 @@ export default {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  background-color: #161E29;
+  /*background-color: #ffffff;*/
+  background: #FFFFFF;
   min-height: 100vh;
-}
-.sidebar{
-  background: #0D121A;
-  width: 20%;
 }
 .main{
   display: flex;
@@ -44,12 +41,13 @@ export default {
   flex-direction: column;
   width: 100%;
 }
-.main_section{
-  padding: 3%;
-}
 .navbar{
-  background-color: #080D16;
+  background-color: #7555c7;
   height: 11vh;
+}
+.footer{
+  background-color: #7555c7;
+  height: 25vh;
 }
 .scroll{
   max-height: 90vh;

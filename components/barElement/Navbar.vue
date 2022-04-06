@@ -1,16 +1,19 @@
 <template>
   <div class="navbar_section">
-    <div class="btn">
-        <div class="navbar_btn">
-          Exit
-        </div>
-    </div>
+    <nuxt-link
+        to="/"
+        class="btn"
+    >
+      <div class="navbar_btn">
+        Выход
+      </div>
+  </nuxt-link>
   </div>
 </template>
 
 <script>
 export default {
-  name: "navbar",
+  name: "Navbar",
 }
 </script>
 
@@ -25,10 +28,11 @@ export default {
 .btn{
   width: 7vw;
   height: 6%;
-  background: #B41210;
+  background: #73409a;
   border-radius: 7px;
   margin: 0 3%;
   padding: 1% 2%;
+  text-decoration: none;
 }
 .navbar_btn{
   color: #FFFFFF;
