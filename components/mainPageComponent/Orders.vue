@@ -23,7 +23,7 @@ export default {
 
 <style scoped>
 .order_item{
-  height: 30%;
+  height: 70%;
   width: 20%;
   background-color: rgb(173,215,194);
   justify-content: center;

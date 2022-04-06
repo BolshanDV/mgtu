@@ -1,7 +1,7 @@
 <template>
 <div class="column">
   <nuxt-link
-      to="/request-form"
+      to="/request/form"
       class="url"
   >
     <div class="row_position row_position_btn_form">

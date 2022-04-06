@@ -1,18 +1,19 @@
 <template>
 <div class="row_position">
   <div class="column description">
-      <div class="item_description">
-        описание 1
+      <div class="row_position item_description title">
+        Механизм работы
       </div>
-      <div class="item_description">
-        описание 2
+      <div class="row_position item_description title">
+        1. Оформление заказа
       </div>
-      <div class="item_description">
-        описание 3
+      <div class="row_position item_description title">
+        2. Отправка на рассотрение заказа исполнителем
       </div>
-      <div class="item_description">
-        описание 4
+      <div class="row_position item_description title">
+        3. В ближайшее время с вами свяжется представитель университета
       </div>
+
   </div>
   <div class="column">
     фото
@@ -31,7 +32,11 @@ export default {
   height: 100%;
 }
 .column{
-  align-items: center;
+  align-items: flex-start;
   width: 50%;
+  height: 50%;
+}
+.item_description{
+  height: 10%;
 }
 </style>

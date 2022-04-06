@@ -5,7 +5,7 @@
         class="btn"
     >
       <div class="navbar_btn">
-        Выход
+        Вернуться
       </div>
   </nuxt-link>
   </div>

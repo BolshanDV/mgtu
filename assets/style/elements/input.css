@@ -9,8 +9,8 @@
     font-family: inherit;
     /*font-size: 1rem;*/
     /*font-weight: 400;*/
-    color: #CCCCCC;
-    background: #161E29;
+    color: #000000;
+    background: #ffffff;
     background-clip: padding-box;
     border: 1px solid #161E29;
     border-radius: 0.25rem;
@@ -38,7 +38,7 @@
     /*background-color: #161E29;*/
     border-color: #161E29;
     outline: 0;
-    box-shadow: 0 0 0 1px rgba(158, 158, 158, 0.25);
+    box-shadow: 0 0 0 5px rgb(152, 122, 203);
 }
 
 .text-field__input:disabled,

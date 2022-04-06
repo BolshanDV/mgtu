@@ -1,16 +1,16 @@
 <template>
   <div class="row_position main_block">
     <div class="row_position order_item">
-      Заказ 1
+      Отзыв клиента
     </div>
     <div class="row_position order_item ">
-      Заказ 2
+      Отзыв клиента
     </div>
     <div class="row_position order_item">
-      Заказ 3
+      Отзыв клиента
     </div>
     <div class=" row_position order_item ">
-      Заказ 4
+      Отзыв клиента
     </div>
   </div>
 </template>
@@ -23,7 +23,7 @@ export default {
 
 <style scoped>
 .order_item{
-  height: 30%;
+  height: 60%;
   width: 20%;
   background-color: rgb(173,215,194);
   justify-content: center;
