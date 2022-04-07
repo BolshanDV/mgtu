@@ -1,12 +1,10 @@
 <template>
 <div class="column">
   <nuxt-link
-      to="/request/form"
+      to="/request/directions"
       class="url"
   >
-    <div class="row_position row_position_btn_form">
-      Разместить заявку
-    </div>
+    Разместить заявку
   </nuxt-link>
 </div>
 </template>
