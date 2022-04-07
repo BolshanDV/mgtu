@@ -45,22 +45,22 @@
                name="search">
       </div>
       <div class="work_space_element_title">
-        Марка
+        Вид печатной платы
       </div>
       <div class="text-field">
         <input class="text-field__input input_element"
                autocomplete="off"
-               placeholder="Введите марку"
+               placeholder="Введите вид платы"
                type="search"
                name="search">
       </div>
       <div class="work_space_element_title">
-        Объем
+        Количество
       </div>
       <div class="text-field">
         <input class="text-field__input input_element"
                autocomplete="off"
-               placeholder="Введите необходимый объем"
+               placeholder="Введите необходимое количество"
                type="search"
                name="search">
       </div>
