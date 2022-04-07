@@ -3,6 +3,7 @@
   <div class="column">
     <div>
       <h1>Заказ успешно создан</h1>
+      <p>Спасибо, что выбрали нашу платформу</p>
     </div>
     <nuxt-link to="/home-page">
       <div class="row_position navbar_btn btn">
@@ -10,7 +11,6 @@
       </div>
     </nuxt-link>
   </div>
-
 </div>
 </template>
 
