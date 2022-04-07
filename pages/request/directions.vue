@@ -5,12 +5,14 @@
         Выберете направление
       </div>
       <div class="row_position work_space_element_title">
-        <nuxt-link to="casting" class="text_element">
+        <nuxt-link to="casting/casting-form" class="text_element">
           Литье
         </nuxt-link>
       </div>
       <div class="row_position work_space_element_title">
-        Печатные платы
+        <nuxt-link to="boards/boards-form" class="text_element">
+          Печатные платы
+        </nuxt-link>
       </div>
       <div class="row_position work_space_element_title">
         Химические реактивы

@@ -34,15 +34,15 @@
       </div>
       <div class="row_position btn_element">
         <div class="row_position btn">
-          <nuxt-link to="directions">
+          <nuxt-link to="/request/directions">
             <div class=" navbar_btn">
               Назад
             </div>
           </nuxt-link>
         </div>
         <div class="row_position btn">
-          <nuxt-link to="result">
-            <div class=" navbar_btn">
+          <nuxt-link to="/request/result">
+            <div class="navbar_btn">
               Продолжить
             </div>
           </nuxt-link>
@@ -54,7 +54,7 @@
 
 <script>
 export default {
-  name: "selection-departments"
+  name: "selection-departments-board"
 }
 </script>
 

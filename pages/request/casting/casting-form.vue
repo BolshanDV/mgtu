@@ -76,7 +76,7 @@
       </div>
       <div class="row_position btn_element">
         <div class="btn">
-          <nuxt-link to="directions">
+          <nuxt-link to="/request/directions">
             <div class="row_position navbar_btn">
               Назад
             </div>
